@@ -3,12 +3,12 @@
     partial class Correcao
     {
         /// <summary>
-        ///  Required designer variable.
+        /// Required designer variable.
         /// </summary>
         private System.ComponentModel.IContainer components = null;
 
         /// <summary>
-        ///  Clean up any resources being used.
+        /// Clean up any resources being used.
         /// </summary>
         /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         protected override void Dispose(bool disposing)
@@ -23,37 +23,37 @@
         #region Windows Form Designer generated code
 
         /// <summary>
-        ///  Required method for Designer support - do not modify
-        ///  the contents of this method with the code editor.
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent()
         {
-            tx_correcao = new TextBox();
+            button1 = new Button();
             SuspendLayout();
             // 
-            // tx_correcao
+            // button1
             // 
-            tx_correcao.Location = new Point(99, 92);
-            tx_correcao.Name = "tx_correcao";
-            tx_correcao.Size = new Size(100, 23);
-            tx_correcao.TabIndex = 0;
-            tx_correcao.Text = "Correcao";
-            
+            button1.Location = new Point(619, 95);
+            button1.Name = "button1";
+            button1.Size = new Size(75, 23);
+            button1.TabIndex = 0;
+            button1.Text = "button1";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
-            // Form1
+            // Correcao
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-            Controls.Add(tx_correcao);
-            Name = "Form1";
-            Text = "Form1";
+            Controls.Add(button1);
+            Name = "Correcao";
+            Text = "Correcao";
             ResumeLayout(false);
-            PerformLayout();
         }
 
         #endregion
 
-        private TextBox tx_correcao;
+        private Button button1;
     }
 }
